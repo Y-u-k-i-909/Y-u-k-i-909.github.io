@@ -3,17 +3,24 @@
     margin: 0;
 
 }
-
+/* I decided to stick with the simple shade pallete from class. 
+Im colour blind, red-green colour blindness has the red cones in the eye detect too much green light and not enough red light. I often struggle with seeing certain elements on website or when playing games
+Because of this I have an attraction to black, whites and greys.
+Of course I can see more than just shades but ultimately i believe shades are a simple way to be accesible for everyone with colourblindness.
+I could have included different pallettes for all types of colourblindness that people could select from but Im not sure how I would do that just yet. */
 :root{
     --colour-one: rgb(0,0,0);
     --colour-two: rgb(100,100,100);
     --colour-three: rgb(180,180,180);
     --colour-four: rgb(240,240,240);
-    --border-one: dashed 2px white;
+    --border-one: dashed 2px black;
 }
+
+/*black makes a good background in my opinion*/
 
 #grid-container-bg{
     background-color: var(--colour-one);
+    /*I just used this from class, i experimented with % but thought it would be best to stick with what I was shown while learning */
     width: 71vh;
     height: 100vh;
     /* width: 100vw;
@@ -22,6 +29,7 @@
     display: grid;
     padding: 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* I did 1.5fr so that i could offset some of my rows so that it fitted the styling of the akira panels.*/ 
     grid-template-rows: 1.5fr 1fr 1fr 1fr 1.5fr;
     gap: 10px;
 
@@ -92,6 +100,7 @@ body{
     grid-column: 1/2;
     grid-row: 3/5;
     background-color: var(--colour-two);
+    
 }
 #box-seven{
     grid-column: 1/5;
@@ -103,6 +112,9 @@ body{
     grid-row: 1/4;
     background-color: var(--colour-three);
 }
+
+
+
 
 
 
