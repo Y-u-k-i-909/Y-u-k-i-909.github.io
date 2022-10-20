@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width" ,="" initial-scale="1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <title>dancefloor</title>
+    <link rel="icon" id="icon" href="img/unnamed.jpg">
+</head>
+
+<body>
+    <div class="dancefloor">
+
+    <div class="row-fig">
+       
+        <div class="image-container"><img id="img1" src="img/stick_0000.svg" onmouseover="this.src='img/stick_0002.svg';" onmouseout="this.src='img/stick_0000.svg';" onmousedown="this.src='img/stick_0015.svg';" onmouseup="this.src='img/stick_0002.svg';" width="200" height="200">
+           
+        </div>
+       
+        <div class="image-container"><img id="img2" src="img/stick_0001.svg" onmouseover="this.src='img/stick_0003.svg';" onmouseout="this.src='img/stick_0001.svg';" onmousedown="this.src='img/stick_0007.svg';" onmouseup="this.src='img/stick_0001.svg';" width="200" height="200">
+            
+
+        </div>
+        
+        <div class="image-container"><img id="img3" src="img/stick_0002.svg" onmouseover="this.src='img/stick_0003.svg';" onmouseout="this.src='img/stick_0002.svg';" onmousedown="this.src='img/stick_0017.svg';" onmouseup="this.src='img/stick_0002.svg';" width="200" height="200">
+
+                  
+           
+            
+        </div>
+        <div class="image-container"><img id="gif1" src="img/discoball.gif" width="200" height="200">
+
+                  
+           
+            
+        </div>
+
+
+</div>
+
+    <div class="row2-fig">
+        <div class="image-container"><img id="img1" src="img/stick_0003.svg" onmouseover="this.src='img/stick_0009.svg';" onmouseout="this.src='img/stick_0003.svg';" onmousedown="this.src='img/stick_0013.svg';" onmouseup="this.src='img/stick_0003.svg';" width="200" height="200">
+            
+            
+        </div>
+       
+        <div class="image-container"><img id="img2" src="img/stick_0006.svg" onmouseover="this.src='img/stick_0003.svg';" onmouseout="this.src='img/stick_0006.svg';" onmousedown="this.src='img/stick_0004.svg';" onmouseup="this.src='img/stick_0006.svg';" width="200" height="200">
+            
+            
+            
+        
+
+    </div>
+        
+        <div class="image-container"><img id="img3" src="img/stick_0005.svg" onmouseover="this.src='img/stick_0001.svg';" onmouseout="this.src='img/stick_0005.svg';" onmousedown="this.src='img/stick_0011.svg';" onmouseup="this.src='img/stick_0005.svg';" width="200" height="200">
+            
+    </div>
+    <div class="image-container" id="mediaplayer">
+            
+        <img id="coverart" src="img/unnamed.jpg">
+       
+    
+        
+
+</div>
+        
+ 
+       
+    </div>
+
+    <div class="row3-fig">
+        <div class="image-container"><img id="img1" src="img/stick_0006.svg" 
+            onmouseover="this.src='img/stick_0002.svg';" 
+            onmouseout="this.src='img/stick_0006.svg';" 
+            onmousedown="this.src='img/stick_0010.svg';" 
+            onmouseup="this.src='img/stick_0006.svg';" width="200" height="200">
+            
+        </div>
+       
+        <div class="image-container"><img id="img2" src="img/stick_0007.svg" 
+            onmouseover="this.src='img/stick_0008.svg';" onmouseout="this.src='img/stick_0007.svg';" 
+            onmousedown="this.src='img/stick_0001.svg';" 
+            onmouseup="this.src='img/stick_0007.svg';" width="200" height="200">
+           
+
+    </div>
+        
+    <div class="image-container"><img id="img3" src="img/stick_0008.svg" onmouseover="this.src='img/stick_0004.svg';" onmouseout="this.src='img/stick_0008.svg';" onmousedown="this.src='img/stick_0013.svg';" onmouseup="this.src='img/stick_0008.svg';" width="200" height="200">
+         
+
+            
+            
+    </div>
+    <div class="image-container" id="mediaplayer">
+            
+        
+        <div id="aWrap">
+            <!-- (A) PLAY/PAUSE BUTTON -->
+            <button id="aPlay" disabled><span id="aPlayIco" class="material-icons">
+              play_arrow
+            </span></button>
+      
+            <!-- (B) TIME -->
+            <div id="aCron">
+              <span id="aNow"></span> / <span id="aTime"></span>
+            </div>
+      
+            <!-- (C) SEEK BAR -->
+            <input id="aSeek" type="range" min="0" value="0" step="1" disabled/>
+      
+            <!-- (D) VOLUME SLIDE -->
+            <span id="aVolIco" class="material-icons">volume_up</span>
+            <input id="aVolume" type="range" min="0" max="1" value="1" step="0.1" disabled/>
+      
+            <!-- (E) PLAYLIST -->
+            <div id="aList"></div>
+          </div>
+</div>
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+
+<script src="script.js"></script>
+
+</html>

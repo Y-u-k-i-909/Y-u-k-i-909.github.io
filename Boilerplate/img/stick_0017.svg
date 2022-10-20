@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 124.71 199.45">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #000;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 14px;
+      }
+
+      .cls-3 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 13.73px;
+      }
+    </style>
+  </defs>
+  <g id="fig0">
+    <line class="cls-2" x1="72.69" y1="107" x2="72.69" y2="75"/>
+    <line class="cls-2" x1="72.69" y1="75" x2="72.69" y2="43"/>
+    <line class="cls-2" x1="72.69" y1="43" x2="72.69" y2="10"/>
+    <circle cx="72.69" cy="20" r="20"/>
+    <line class="cls-2" x1="72.69" y1="43" x2="36.96" y2="55.95"/>
+    <line class="cls-2" x1="72.69" y1="43" x2="103.98" y2="64.56"/>
+    <line class="cls-2" x1="36.96" y1="55.95" x2="15.44" y2="89.66"/>
+    <line class="cls-2" x1="103.98" y1="64.56" x2="117.71" y2="102.13"/>
+    <line class="cls-2" x1="72.69" y1="107" x2="27.05" y2="127.42"/>
+    <line class="cls-2" x1="72.69" y1="107" x2="107.85" y2="142.55"/>
+    <line class="cls-2" x1="27.05" y1="127.42" x2="7" y2="173.22"/>
+    <line class="cls-2" x1="107.85" y1="142.55" x2="110.99" y2="192.45"/>
+  </g>
+  <path class="cls-1" d="M44.84,13.65c-2.62-7.34-11.91-10.74-20.75-7.59-8.84,3.15-13.89,11.66-11.27,19.01s11.91,10.74,20.75,7.59c1.29-.46,2.49-1.05,3.61-1.71l6.98,.45-1.21-5.81c2.47-3.63,3.32-7.95,1.9-11.93Z"/>
+  <text class="cls-3" transform="translate(21.67 26.5) rotate(-15.61) scale(.87 1)"><tspan x="0" y="0">ZZZ</tspan></text>
+</svg>
